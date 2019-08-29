@@ -18,10 +18,19 @@ void Tester::sorts(int *array, size_t size) {
     Sort* sort;
     int temp[size];
 
-    for (int i = BUBBLE; i <= COUNTING; i++) {
+    for (int i = BUBBLE; i <= BUBBLE; i++) {
         copy(array, array + size, temp);
+        print(temp, size);
         sort = getSort(static_cast<Algorithm>(i), temp, size);
         sort->execute();
+        print(temp, size);
         ASSERT(is_sorted(temp, temp + size), "The " + sort->name() + " is not ordering all the elements");
     }
+}
+
+void Tester::print(int *array, size_t size) {
+    for (int i = 0; i < size; i++) {
+        cout << array[i] << " ";
+    }
+    cout << endl;
 }

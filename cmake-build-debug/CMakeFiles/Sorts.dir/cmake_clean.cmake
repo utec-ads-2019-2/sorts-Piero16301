@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Sorts.dir/main.cpp.obj"
+  "CMakeFiles/Sorts.dir/mocker.cpp.obj"
+  "CMakeFiles/Sorts.dir/tester.cpp.obj"
   "Sorts.pdb"
   "Sorts.exe"
   "Sorts.exe.manifest"

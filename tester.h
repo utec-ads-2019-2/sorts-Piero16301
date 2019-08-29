@@ -3,7 +3,7 @@
 
 #include <stdexcept>
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 
 #include "sort.h"
 #include "bubble.h"
@@ -36,6 +36,7 @@ class Tester {
 
     public:
         static void sorts(int *, size_t);
+        static void print(int *, size_t);
 };
 
 #endif

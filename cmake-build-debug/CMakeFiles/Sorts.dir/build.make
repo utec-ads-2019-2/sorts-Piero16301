@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\piero\Downloads\Sorts
+CMAKE_SOURCE_DIR = C:\Users\piero\Downloads\sorts-Piero16301
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\piero\Downloads\Sorts\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\piero\Downloads\sorts-Piero16301\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Sorts.dir/depend.make
@@ -58,30 +58,60 @@ include CMakeFiles/Sorts.dir/flags.make
 
 CMakeFiles/Sorts.dir/main.cpp.obj: CMakeFiles/Sorts.dir/flags.make
 CMakeFiles/Sorts.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\piero\Downloads\Sorts\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sorts.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sorts.dir\main.cpp.obj -c C:\Users\piero\Downloads\Sorts\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\piero\Downloads\sorts-Piero16301\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sorts.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sorts.dir\main.cpp.obj -c C:\Users\piero\Downloads\sorts-Piero16301\main.cpp
 
 CMakeFiles/Sorts.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorts.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\piero\Downloads\Sorts\main.cpp > CMakeFiles\Sorts.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\piero\Downloads\sorts-Piero16301\main.cpp > CMakeFiles\Sorts.dir\main.cpp.i
 
 CMakeFiles/Sorts.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorts.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\piero\Downloads\Sorts\main.cpp -o CMakeFiles\Sorts.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\piero\Downloads\sorts-Piero16301\main.cpp -o CMakeFiles\Sorts.dir\main.cpp.s
+
+CMakeFiles/Sorts.dir/mocker.cpp.obj: CMakeFiles/Sorts.dir/flags.make
+CMakeFiles/Sorts.dir/mocker.cpp.obj: ../mocker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\piero\Downloads\sorts-Piero16301\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sorts.dir/mocker.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sorts.dir\mocker.cpp.obj -c C:\Users\piero\Downloads\sorts-Piero16301\mocker.cpp
+
+CMakeFiles/Sorts.dir/mocker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorts.dir/mocker.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\piero\Downloads\sorts-Piero16301\mocker.cpp > CMakeFiles\Sorts.dir\mocker.cpp.i
+
+CMakeFiles/Sorts.dir/mocker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorts.dir/mocker.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\piero\Downloads\sorts-Piero16301\mocker.cpp -o CMakeFiles\Sorts.dir\mocker.cpp.s
+
+CMakeFiles/Sorts.dir/tester.cpp.obj: CMakeFiles/Sorts.dir/flags.make
+CMakeFiles/Sorts.dir/tester.cpp.obj: ../tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\piero\Downloads\sorts-Piero16301\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sorts.dir/tester.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sorts.dir\tester.cpp.obj -c C:\Users\piero\Downloads\sorts-Piero16301\tester.cpp
+
+CMakeFiles/Sorts.dir/tester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorts.dir/tester.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\piero\Downloads\sorts-Piero16301\tester.cpp > CMakeFiles\Sorts.dir\tester.cpp.i
+
+CMakeFiles/Sorts.dir/tester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorts.dir/tester.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\piero\Downloads\sorts-Piero16301\tester.cpp -o CMakeFiles\Sorts.dir\tester.cpp.s
 
 # Object files for target Sorts
 Sorts_OBJECTS = \
-"CMakeFiles/Sorts.dir/main.cpp.obj"
+"CMakeFiles/Sorts.dir/main.cpp.obj" \
+"CMakeFiles/Sorts.dir/mocker.cpp.obj" \
+"CMakeFiles/Sorts.dir/tester.cpp.obj"
 
 # External object files for target Sorts
 Sorts_EXTERNAL_OBJECTS =
 
 Sorts.exe: CMakeFiles/Sorts.dir/main.cpp.obj
+Sorts.exe: CMakeFiles/Sorts.dir/mocker.cpp.obj
+Sorts.exe: CMakeFiles/Sorts.dir/tester.cpp.obj
 Sorts.exe: CMakeFiles/Sorts.dir/build.make
 Sorts.exe: CMakeFiles/Sorts.dir/linklibs.rsp
 Sorts.exe: CMakeFiles/Sorts.dir/objects1.rsp
 Sorts.exe: CMakeFiles/Sorts.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\piero\Downloads\Sorts\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Sorts.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\piero\Downloads\sorts-Piero16301\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Sorts.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sorts.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +124,6 @@ CMakeFiles/Sorts.dir/clean:
 .PHONY : CMakeFiles/Sorts.dir/clean
 
 CMakeFiles/Sorts.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\piero\Downloads\Sorts C:\Users\piero\Downloads\Sorts C:\Users\piero\Downloads\Sorts\cmake-build-debug C:\Users\piero\Downloads\Sorts\cmake-build-debug C:\Users\piero\Downloads\Sorts\cmake-build-debug\CMakeFiles\Sorts.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\piero\Downloads\sorts-Piero16301 C:\Users\piero\Downloads\sorts-Piero16301 C:\Users\piero\Downloads\sorts-Piero16301\cmake-build-debug C:\Users\piero\Downloads\sorts-Piero16301\cmake-build-debug C:\Users\piero\Downloads\sorts-Piero16301\cmake-build-debug\CMakeFiles\Sorts.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Sorts.dir/depend
 

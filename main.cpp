@@ -1,5 +1,5 @@
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include <string>
 
 #include "mocker.h"
@@ -13,7 +13,7 @@
 
 using namespace std;
 
-#define NUMBER_OF_TESTS 1000
+#define NUMBER_OF_TESTS 1 //1000
 
 Mocker mocker;
 
@@ -37,11 +37,4 @@ void executeTests() {
         Tester::sorts(array, size);
         cout << "Passed test: " << i + 1 << endl;
     }
-}
-
-void printArray(int *array, size_t size) {
-    for (int i = 0; i < size; i++) {
-        cout << array[i] << " ";
-    }
-    cout << endl;
 }

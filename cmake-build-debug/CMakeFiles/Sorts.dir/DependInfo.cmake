@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/piero/Downloads/Sorts/main.cpp" "C:/Users/piero/Downloads/Sorts/cmake-build-debug/CMakeFiles/Sorts.dir/main.cpp.obj"
+  "C:/Users/piero/Downloads/sorts-Piero16301/main.cpp" "C:/Users/piero/Downloads/sorts-Piero16301/cmake-build-debug/CMakeFiles/Sorts.dir/main.cpp.obj"
+  "C:/Users/piero/Downloads/sorts-Piero16301/mocker.cpp" "C:/Users/piero/Downloads/sorts-Piero16301/cmake-build-debug/CMakeFiles/Sorts.dir/mocker.cpp.obj"
+  "C:/Users/piero/Downloads/sorts-Piero16301/tester.cpp" "C:/Users/piero/Downloads/sorts-Piero16301/cmake-build-debug/CMakeFiles/Sorts.dir/tester.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
