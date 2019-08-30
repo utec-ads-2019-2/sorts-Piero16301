@@ -13,7 +13,7 @@
 
 using namespace std;
 
-#define NUMBER_OF_TESTS 1 //1000
+#define NUMBER_OF_TESTS 1000 //1000
 
 Mocker mocker;
 

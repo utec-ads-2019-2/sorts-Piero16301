@@ -7,11 +7,20 @@ class InsertSort : public Sort {
     public:
         InsertSort(int *elements, size_t size) : Sort(elements, size) {}
 
-        void execute() {
-            // TODO
+        void execute() override {
+            int pivote, key;
+            for (int i = 1; i < size; ++i) {
+                pivote = elements[i];
+                key = i - 1;
+                while (key >= 0 && elements[key] > pivote) {
+                    elements[key + 1] = elements[key];
+                    key--;
+                }
+                elements[key + 1] = pivote;
+            }
         }
 
-        inline string name() { return "InsertSort"; }
+        inline string name() override { return "InsertSort"; }
 };
 
 #endif
